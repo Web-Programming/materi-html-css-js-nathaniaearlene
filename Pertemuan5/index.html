@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        /*Ini Internal CSS*/
+        /* Selector Tag HTML*/
+        body {
+            background-color: #dfef8e;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h2 {
+            text-decoration: underline;
+        }
+        div{
+            border-width: 10px;
+            border-style: dotted;
+            border-color: #000;
+        }
+        /* Selector Class*/
+        .border-warna-hijau{   /*jgn ad spasi*/
+            border-color: green;
+        }
+
+        .border-warna-ungu{
+            border-color: purple;
+        }
+        .border-spesial{
+            border: 5px solid orchid;
+        }
+    </style>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="css/gayaku.css"> 
+</head>
+<body>
+    <h1 style="color: blue; font-size: 15pt;">Mengenal CSS Inline</h1>
+    <h1 style="color: rgb(227, 43, 43); font-family: Arial, Helvetica, sans-serif ;">Ini Text Berwarna Merah</h1>
+    <h2>Mengenal Selector pada CSS</h2>
+    <div style="border-style: dotted; border-color: red;">Hallo, apa kabar mahasiswa kelas SI4B</div>
+    <div style="border-style: dotted; border-color: rgb(53, 87, 202);">Kita bahas selector lainnya</div>
+    <div class="border-warna-ungu">Kita bahas selector lainnyaa</div>
+    <div class="border-warna-hijau border-spesial">Kita bahas selector lainnyaa</div>
+</body>
+</html>

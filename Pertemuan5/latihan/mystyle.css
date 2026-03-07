@@ -1,0 +1,50 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; /*Mengatur jarak tepi*/
+    color: #333;
+    background-color: rgb(208, 219, 230);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.158);
+    color: #1c5c71;
+    padding: 20px 0; /*Mengatur jarak tepi atas & bawah 20px, kiri & kanan 0px8 */
+    text-align: center;
+}
+
+header img {
+    border-radius: 10px;
+    max-width: 60%; /*mengatur panjang gambar max*/
+    height: auto;
+}
+nav{
+    padding: 10px 0;
+}
+nav a{
+    color: rgb(84, 124, 198);
+    text-decoration: none; /* agar tidak ada underline pada link*/
+    margin: 0 15px ;
+    font-weight: bold; /* font cetak tebal*/
+}
+nav a:hover{
+    background-color: rgb(121, 115, 248);
+    color: #490548;
+    border-bottom: 2px solid #788ded;
+}
+/*Bagian MAIN*/
+main{
+    margin: 30px auto;
+    padding: 0 20px;
+}
+section{
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+section img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
