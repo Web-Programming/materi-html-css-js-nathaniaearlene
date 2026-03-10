@@ -9,12 +9,12 @@ header{
     background-color: rgba(0, 0, 0, 0.158);
     color: #1c5c71;
     padding: 20px 0; /*Mengatur jarak tepi atas & bawah 20px, kiri & kanan 0px8 */
-    text-align: center;
+    text-align: left;
 }
 
 header img {
     border-radius: 10px;
-    max-width: 60%; /*mengatur panjang gambar max*/
+    max-width: 50%; /*mengatur panjang gambar max*/
     height: auto;
 }
 nav{
